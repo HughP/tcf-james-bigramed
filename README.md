@@ -11,17 +11,22 @@
 **Mephaa keyboard layout images**:
 
 ---
+
 ![Base State](Images/Mepha-state-0.png)
-<center>_Base State_</center>
+
+<center><i> Base State </i></center>
 
 ---
+
 ![Base State](Images/Mepha-state-shift.png)
-<center>_Shift State_</center>
+
+<center><i>Shift State</i></center>
 
 ---
 
 ![Required Usage](Images/tcf-heatmap-with-full-text.png)
-<center>_Mephaa Required Usage_</center>
+
+<center><i> Mephaa Required Usage </i></center>
 
 ---
 
@@ -44,10 +49,14 @@
    * COUNT APPEARANCES
 
 
- <center> ![Bigram Options](Images/Bigram-counting.png) </center>
+ <center>
+ 
+ ![Bigram Options](Images/Bigram-counting.png)
+
+</center>
 
 
- The website produces a down-loadable `.csv` file `tcf-on-QWERTY-bigram-count-ori.csv`. Some editing of this CSV file is necessary to convert it into the same format of bigram file that [`Typing`](https://github.com/michaeldickens/Typing) expects (`\n` for new line, `\\` for `\`, `\t` for TAB, and only a space between the character column and the count column).
+  The website produces a down-loadable `.csv` file `tcf-on-QWERTY-bigram-count-ori.csv`. Some editing of this CSV file is necessary to convert it into the same format of bigram file that [`Typing`](https://github.com/michaeldickens/Typing) expects (`\n` for new line, `\\` for `\`, `\t` for TAB, and only a space between the character column and the count column).
 
 8.
 ```
@@ -63,18 +72,22 @@ rm proof-of-concept-text.txt
 mv proof-of-concept-text2.txt proof-of-concept-text.txt
 ```
 
-````
+```
 cat proof-of-concept-text.txt | perl -CS -pe 's/\N{U+000D}//g' > proof-of-concept-text2.txt
 rm proof-of-concept-text.txt
 mv proof-of-concept-text2.txt proof-of-concept-text.txt
 ```
 
 ---
+ 
  ![Keyboard ISO 9995 Key numbers](Images/Keyboard-Key-IDs.png)
+
 <center>_Keyboard ISO 9995 Key numbers on an ANSI QWERTY keyboard_</center>
 
 ---
- ![Handedness on keyboards](Images/Keyboard-Handedness.png)
+
+![Handedness on keyboards](Images/Keyboard-Handedness.png)
+
 <center>_Keyboard Handedness shown with ISO 9995 Key numbers on an ANSI QWERTY keyboard_</center>
 
 ---
