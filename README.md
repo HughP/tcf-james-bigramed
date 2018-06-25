@@ -36,7 +36,20 @@
  The default method is to use an application by Michael Dickens called [`Frequency`](https://github.com/michaeldickens/Frequency). - Hugh has had some difficulty in getting that to compile. So in lieu of using that Hugh started down the path of step _Seven_.
 
   [`Typing`](https://github.com/michaeldickens/Typing) assumes that there is a one to one correspondence between each single byte character and each keystroke. Processes in step three ensure that all all multi-byte characters are converted to single byte characters and their corresponding positions. This can allow [`Typing`](https://github.com/michaeldickens/Typing) to give us a fitness value (by running the tests against the existing QWERTY setting), it can also allow [`Typing`](https://github.com/michaeldickens/Typing) to make a projection about how to organize a keyboard layout based on [`Typing`](https://github.com/michaeldickens/Typing)'s simulated annealing algorithm.
-7. To create bigrams the service at the following website was used: https://www.dcode.fr/bigrams. The following settings were also used:
+7. To create bigrams and character count the following scripts were used:
+
+ ```
+./bigrams.py tcf-on-QWERTY.txt > allDigrams.txt
+ ```
+ Then to get the character counts.
+ ```
+ UnicodeCCount.pl -n tcf-on-QWERTY.txt | cut  -f 2,3 | tr "\t" " " > all
+ Characters.txt && sed -i '1d' allCharacters.txt
+ ```
+
+Then the character for new line had to be added to the top line as `\n`.
+
+<!-- 7. To create bigrams the service at the following website was used: https://www.dcode.fr/bigrams. The following settings were also used:
    *  ALL CHARACTERS (INCLUDING PUNCTUATION AND SYMBOLS)
    * STANDARDIZATION OF LETTERS (IGNORE UPPER-LOWER CASE AND DIACRITICS) [un-checked]
    * Analyze BY SLIDING (ABCDEF => AB,BC,CD,DE,EF)
@@ -47,8 +60,8 @@
  <center> ![Bigram Options](Images/Bigram-counting.png) </center>
 
 
-  The website produces a down-loadable `.csv` file `tcf-on-QWERTY-bigram-count-ori.csv`. Some editing of this CSV file is necessary to convert it into the same format of bigram file that [`Typing`](https://github.com/michaeldickens/Typing) expects (`\n` for new line, `\\` for `\`, `\t` for TAB, and only a space between the character column and the count column).
-
+  The website produces a down-loadable `.csv` file `tcf-on-QWERTY-bigram-count-ori.csv`. Some editing of this CSV file is necessary to convert it into the same format of bigram file that [`Typing`](https://github.com/michaeldickens/Typing) expects (`\n` for new line, `\\` for `\`, `\t` for TAB, and only a space between the character column and the count column). -->
+<!--
 8.
 ```
 sed -e 's#\#\\#g' -i tcf-on-QWERTY-bigram-count.csv
@@ -68,7 +81,7 @@ cat proof-of-concept-text.txt | perl -CS -pe 's/\N{U+000D}//g' > proof-of-concep
 rm proof-of-concept-text.txt
 mv proof-of-concept-text2.txt proof-of-concept-text.txt
 ```
-
+-->
 ---
  ![Keyboard ISO 9995 Key numbers](Images/Keyboard-Key-IDs.png)
 <center>_Keyboard ISO 9995 Key numbers on an ANSI QWERTY keyboard_</center>
