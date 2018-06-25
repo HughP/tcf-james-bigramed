@@ -34,11 +34,11 @@
  5. `tcf-on-QWERTY-UCC.txt` is a quick check to show that all characters in the file are in the single byte range.
 6. [`Typing`](https://github.com/michaeldickens/Typing) requires a list of character bigrams and a list of character counts. [`Typing`](https://github.com/michaeldickens/Typing) assumes that there is a one to one correspondence between each single byte character and each keystroke. Processes in step three ensure that all all multi-byte characters are converted to single byte characters and their corresponding positions. This can allow [`Typing`](https://github.com/michaeldickens/Typing) to give us a fitness value (by running the tests against the existing QWERTY setting), it can also allow [`Typing`](https://github.com/michaeldickens/Typing) to make a projection about how to organize a keyboard layout based on [`Typing`](https://github.com/michaeldickens/Typing)'s simulated annealing algorithm.
 7. To create bigrams the service at the following website was used: https://www.dcode.fr/bigrams. The following settings were also used:
- *  ALL CHARACTERS (INCLUDING PUNCTUATION AND SYMBOLS)
- * STANDARDIZATION OF LETTERS (IGNORE UPPER-LOWER CASE AND DIACRITICS) [un-checked]
- * Analyze BY SLIDING (ABCDEF => AB,BC,CD,DE,EF)
- * KEEP WORDS BORDERS (ABC_DE ≠ ABCDE) [checked]
- * COUNT APPEARANCES
+   *  ALL CHARACTERS (INCLUDING PUNCTUATION AND SYMBOLS)
+   * STANDARDIZATION OF LETTERS (IGNORE UPPER-LOWER CASE AND DIACRITICS) [un-checked]
+   * Analyze BY SLIDING (ABCDEF => AB,BC,CD,DE,EF)
+   * KEEP WORDS BORDERS (ABC_DE ≠ ABCDE) [checked]
+   * COUNT APPEARANCES
 
  <center> ![Bigram Options](Images/Bigram-counting.png) </center>
 
