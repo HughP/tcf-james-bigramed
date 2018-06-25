@@ -40,7 +40,9 @@
    * KEEP WORDS BORDERS (ABC_DE ≠ ABCDE) [checked]
    * COUNT APPEARANCES
 
+
  <center> ![Bigram Options](Images/Bigram-counting.png) </center>
+
 
  The website produces a down-loadable `.csv` file `tcf-on-QWERTY-bigram-count-ori.csv`. Some editing of this CSV file is necessary to convert it into the same format of bigram file that [`Typing`](https://github.com/michaeldickens/Typing) expects (`\n` for new line, `\\` for `\`, `\t` for TAB, and only a space between the character column and the count column).
 
