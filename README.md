@@ -29,7 +29,7 @@
 
 1. Text received, as `JAS_TCF.txt`
 2. Moved characters from hacked font code points to proper Unicode values, using [`Teckit`](https://github.com/silnrsi/teckit). `me'phaa.map` & `me'phaa.tec`
-3. Scripture texts has a very formal typesetting process. Things like paragraph, book, chapter, and verse markers: these are indicated by a reverse solidus `\`. All ove these are removed (by hand).
+3. Scripture texts has a very formal typesetting process. Things like paragraph, book, chapter, and verse markers: these are indicated by a reverse solidus `\`. All of these are removed (by hand).
 4. Replaced all characters in the Mephaa text with their corresponding values as if they were English characters typed on a QWERTY keyboard. (Done by hand via search and replace.) resulting file: `tcf-on-QWERTY.txt`
  This allows for [`Typing`](https://github.com/michaeldickens/Typing) to process the characters (really in the mental model of typing it is processing keypresses not characters). [`Typing`](https://github.com/michaeldickens/Typing) only processes characters as if they are single byte, so no two or three byte characters work with the program. However this means that if a language corpus is convertedd from their orthographical representation it can be re-rendered as a keypress representation. This keypress representation can just so happen to have QWERTY codepoints - the result is not English, rather some language as goblety gook. Another way to think about this would be to use ISO 9995 names of keys.
 5. `tcf-on-QWERTY-UCC.txt` is a quick check to show that all characters in the file are in the single byte range.
