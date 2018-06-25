@@ -62,26 +62,7 @@ Then the character for new line had to be added to the top line as `\n`.
 
   The website produces a down-loadable `.csv` file `tcf-on-QWERTY-bigram-count-ori.csv`. Some editing of this CSV file is necessary to convert it into the same format of bigram file that [`Typing`](https://github.com/michaeldickens/Typing) expects (`\n` for new line, `\\` for `\`, `\t` for TAB, and only a space between the character column and the count column). -->
 <!--
-8.
-```
-sed -e 's#\#\\#g' -i tcf-on-QWERTY-bigram-count.csv
-```
-* Replace U+000AU+000D sequence inside of quotes with `\n`.
-* If there are a sequence of two `"`on the same line delete them both.
-* Replace the field separator `;` with `space`.
 
-```
-cat proof-of-concept-text.txt | perl -CS -pe 's/\N{U+000A}/\N{U+203D}/g' > proof-of-concept-text2.txt
-rm proof-of-concept-text.txt
-mv proof-of-concept-text2.txt proof-of-concept-text.txt
-```
-
-````
-cat proof-of-concept-text.txt | perl -CS -pe 's/\N{U+000D}//g' > proof-of-concept-text2.txt
-rm proof-of-concept-text.txt
-mv proof-of-concept-text2.txt proof-of-concept-text.txt
-```
--->
 ---
  ![Keyboard ISO 9995 Key numbers](Images/Keyboard-Key-IDs.png)
 <center>_Keyboard ISO 9995 Key numbers on an ANSI QWERTY keyboard_</center>
