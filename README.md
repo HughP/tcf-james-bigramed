@@ -11,14 +11,17 @@
 **Mephaa keyboard layout images**:
 
 ---
+
 ![Base State](Images/Mephaa-state-0.png)
 <center>_Base State_</center>
 
 ---
+
 ![Base State](Images/Mephaa-state-shift.png)
 <center>_Shift State_</center>
 
 ---
+
 ![Base State](Images/Mephaa-state-alt.png)
 <center>_Alt State_</center>
 
@@ -71,6 +74,7 @@
 Using the text transformation methods outlined above the following keyboard statistics become available when using [KLA](http://patorjk.com/keyboard-layout-analyzer/#/main).
 
 KLA also suggests an "optimized" keyboard, and is the reference keyboard layout in the following graphs. This is contrasted with the existing Mephaa keyboard which is listed above.
+
 ![proposed optimized keyboard](Images/tcf-kla-keyboard-layout.png)
 
 The distance that the typists' fingers will need to travel is greater for the exiting Mephaa layout.
@@ -90,10 +94,12 @@ Finally in terms of row usage we can see where the high frequency targets are.
 ![Mephaa distance traveled](Images/tcf-row-usage.png)
 
 ---
+
  ![Keyboard ISO 9995 Key numbers](Images/Keyboard-Key-IDs.png)
 <center>_Keyboard ISO 9995 Key numbers on an ANSI QWERTY keyboard_</center>
 
 ---
+
  ![Handedness on keyboards](Images/Keyboard-Handedness.png)
 <center>_Keyboard Handedness shown with ISO 9995 Key numbers on an ANSI QWERTY keyboard_</center>
 
