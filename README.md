@@ -11,12 +11,16 @@
 **Mephaa keyboard layout images**:
 
 ---
-![Base State](Images/Mepha-state-0.png)
+![Base State](Images/Mephaa-state-0.png)
 <center>_Base State_</center>
 
 ---
-![Base State](Images/Mepha-state-shift.png)
+![Base State](Images/Mephaa-state-shift.png)
 <center>_Shift State_</center>
+
+---
+![Base State](Images/Mephaa-state-alt.png)
+<center>_Alt State_</center>
 
 ---
 
@@ -62,12 +66,28 @@
 
   The website produces a down-loadable `.csv` file `tcf-on-QWERTY-bigram-count-ori.csv`. Some editing of this CSV file is necessary to convert it into the same format of bigram file that [`Typing`](https://github.com/michaeldickens/Typing) expects (`\n` for new line, `\\` for `\`, `\t` for TAB, and only a space between the character column and the count column). -->
 
-**Statistical analysis of exiting and optimized Mephaa keyboard using KLA**
+**Statistical analysis of exiting and optimized Mephaa keyboard using Keyboard Layout Analyzer (KLA)**
 
-Using the text transformation methods outlined above the following keyboard statistics become available when using KLA.
+Using the text transformation methods outlined above the following keyboard statistics become available when using [KLA](http://patorjk.com/keyboard-layout-analyzer/#/main).
 
-![proposed optimized keyboard](Images/tcf-personalized.png) 
+KLA also suggests an "optimized" keyboard, and is the reference keyboard layout in the following graphs. This is contrasted with the existing Mephaa keyboard which is listed above.
+![proposed optimized keyboard](Images/tcf-kla-keyboard-layout.png)
 
+The distance that the typists' fingers will need to travel is greater for the exiting Mephaa layout.
+
+![Mephaa distance traveled](Images/tcf-distance.png)
+
+As the previous heat map for the existing Mephaa keyboard shows, the frequently used keys are on the periphery of the typing area, significantly overloading the weaker fingers. In actual typing of Mephaa, Hugh has observed this to contribute to hunt-and-peck style typing.
+
+![Mephaa distance traveled](Images/tcf-finger-load.png)
+
+In terms of work load percentages we can see where on the hand the two keyboards are "balancing" the workload.
+
+![Mephaa distance traveled](Images/tcf-percentage-load.png)
+
+Finally in terms of row usage we can see where the high frequency targets are.
+
+![Mephaa distance traveled](Images/tcf-row-usage.png)
 
 ---
  ![Keyboard ISO 9995 Key numbers](Images/Keyboard-Key-IDs.png)
@@ -78,3 +98,5 @@ Using the text transformation methods outlined above the following keyboard stat
 <center>_Keyboard Handedness shown with ISO 9995 Key numbers on an ANSI QWERTY keyboard_</center>
 
 ---
+
+<!-- Link to keyboard file:  http://www.keyboard-layout-editor.com/#/gists/12b42baca7030bfabea5181833232e2b -->
