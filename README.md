@@ -13,22 +13,22 @@
 ---
 
 ![Base State](Images/Mephaa-state-0.png)
-<center>_Base State_</center>
+_Base State_
 
 ---
 
 ![Base State](Images/Mephaa-state-shift.png)
-<center>_Shift State_</center>
+_Shift State_
 
 ---
 
 ![Base State](Images/Mephaa-state-alt.png)
-<center>_Alt State_</center>
+_Alt State_
 
 ---
 
 ![Required Usage](Images/tcf-heatmap-with-full-text.png)
-<center>_Mephaa Required Usage_</center>
+_Mephaa Required Usage_
 
 ---
 
@@ -64,7 +64,7 @@
    * COUNT APPEARANCES
 
 
- <center> ![Bigram Options](Images/Bigram-counting.png) </center>
+  ![Bigram Options](Images/Bigram-counting.png)
 
 
   The website produces a down-loadable `.csv` file `tcf-on-QWERTY-bigram-count-ori.csv`. Some editing of this CSV file is necessary to convert it into the same format of bigram file that [`Typing`](https://github.com/michaeldickens/Typing) expects (`\n` for new line, `\\` for `\`, `\t` for TAB, and only a space between the character column and the count column). -->
@@ -96,12 +96,12 @@ Finally in terms of row usage we can see where the high frequency targets are.
 ---
 
  ![Keyboard ISO 9995 Key numbers](Images/Keyboard-Key-IDs.png)
-<center>_Keyboard ISO 9995 Key numbers on an ANSI QWERTY keyboard_</center>
+_Keyboard ISO 9995 Key numbers on an ANSI QWERTY keyboard_
 
 ---
 
  ![Handedness on keyboards](Images/Keyboard-Handedness.png)
-<center>_Keyboard Handedness shown with ISO 9995 Key numbers on an ANSI QWERTY keyboard_</center>
+_Keyboard Handedness shown with ISO 9995 Key numbers on an ANSI QWERTY keyboard_
 
 ---
 
