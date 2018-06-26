@@ -60,6 +60,8 @@ _Mephaa Required Usage_
 
  Then the character for new line had to be added to the top line as `\n`.
 
+8. Eventually just KLA was used with the text from `tcf-on-QWERTY.txt`. This text was then re-encoded back to Mephaa and an image created via [KLE](http://www.keyboard-layout-editor.com/#/gists/12b42baca7030bfabea5181833232e2b ). The analysis of KLA is presented below.
+
 <!-- 7. To create bigrams the service at the following website was used: https://www.dcode.fr/bigrams. The following settings were also used:
    *  ALL CHARACTERS (INCLUDING PUNCTUATION AND SYMBOLS)
    * STANDARDIZATION OF LETTERS (IGNORE UPPER-LOWER CASE AND DIACRITICS) [un-checked]
