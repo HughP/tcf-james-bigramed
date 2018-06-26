@@ -13,21 +13,25 @@
 ---
 
 ![Base State](Images/Mephaa-state-0.png)
+
 _Base State_
 
 ---
 
 ![Base State](Images/Mephaa-state-shift.png)
+
 _Shift State_
 
 ---
 
 ![Base State](Images/Mephaa-state-alt.png)
+
 _Alt State_
 
 ---
 
 ![Required Usage](Images/tcf-heatmap-with-full-text.png)
+
 _Mephaa Required Usage_
 
 ---
@@ -97,11 +101,13 @@ Finally in terms of row usage we can see where the high frequency targets are.
 ---
 
  ![Keyboard ISO 9995 Key numbers](Images/Keyboard-Key-IDs.png)
+
 _Keyboard ISO 9995 Key numbers on an ANSI QWERTY keyboard_
 
 ---
 
  ![Handedness on keyboards](Images/Keyboard-Handedness.png)
+
 _Keyboard Handedness shown with ISO 9995 Key numbers on an ANSI QWERTY keyboard_
 
 ---
