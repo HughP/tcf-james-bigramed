@@ -73,7 +73,7 @@
 
 Using the text transformation methods outlined above the following keyboard statistics become available when using [KLA](http://patorjk.com/keyboard-layout-analyzer/#/main).
 
-KLA also suggests an "optimized" keyboard, and is the reference keyboard layout in the following graphs. This is contrasted with the existing Mephaa keyboard which is listed above.
+KLA also suggests an "optimized" keyboard, and is the reference keyboard layout in the following graphs. This is contrasted with the existing Mephaa keyboard which is shown above. In the diagrams the KLA optimized keyboard is referenced as _Personalized_ while the existing Mephaa layout is labeled _QWERTY_. It should be noted that the KLA optimization engine acknowledges that it is not a very aggressive optimization, and one point that Hugh notices is that one further optimization that could be considered is that both tone marks could be moved to the right hand so that a better cadence can be achieved. As the tone marks currently are situated a high level of outward rolls exist.  
 
 ![proposed optimized keyboard](Images/tcf-kla-keyboard-layout.png)
 
