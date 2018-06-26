@@ -62,6 +62,13 @@
 
   The website produces a down-loadable `.csv` file `tcf-on-QWERTY-bigram-count-ori.csv`. Some editing of this CSV file is necessary to convert it into the same format of bigram file that [`Typing`](https://github.com/michaeldickens/Typing) expects (`\n` for new line, `\\` for `\`, `\t` for TAB, and only a space between the character column and the count column). -->
 
+**Statistical analysis of exiting and optimized Mephaa keyboard using KLA**
+
+Using the text transformation methods outlined above the following keyboard statistics become available when using KLA.
+
+![proposed optimized keyboard](Images/tcf-personalized.png) 
+
+
 ---
  ![Keyboard ISO 9995 Key numbers](Images/Keyboard-Key-IDs.png)
 <center>_Keyboard ISO 9995 Key numbers on an ANSI QWERTY keyboard_</center>
