@@ -61,6 +61,20 @@ _Mephaa Required Usage_
  Then the character for new line had to be added to the top line as `\n`.
 
 8. Eventually just KLA was used with the text from `tcf-on-QWERTY.txt`. This text was then re-encoded back to Mephaa and an image created via [KLE](http://www.keyboard-layout-editor.com/#/gists/12b42baca7030bfabea5181833232e2b ). The analysis of KLA is presented below.
+9.  Assumed total keypress count for Mephaa was computed as follows:
+
+ ```
+UnicodeCCount.pl tcf-on-QWERTY.txt | tail -n +2 | cut -f 3 | paste -sd+ |
+ bc
+ ```
+   This results in a total of 22235 keypresses. It is assumed that becase we are counting the text after it has been converted to QWERTY that we are no longer counting characters, but we are counting what they represent, keypresses.
+   By using the following command
+
+ ```
+   UnicodeCCount.pl mephaa3-unicode.txt  | tail -n +2 | cut -f 3 | paste -sd+ | bc
+```
+   we see that there are only 21294 characters (NFC) in the Mephaa text. If then take out the 1879 units of U+0331 (it is a combining character) then we get the total number of "reading characters" (like letters, but without evoking the idea of functional units - I'm counting diacritics with their bases - and I am not counting `ñ` as a separable character). For a grand total of 19415 letters. 22235 key presses to produce 19415 letters. A ratio of 1.145 keys per letter. 4176 total diacritics, for a diacritic (to character) density 21.51%. Or of one diacritic per every 4.2428 letters (not including `ñ`). If we include `ñ` the total increases to 4296 and the density to 22.12% or one diacritic per every 4.51 "letters".
+
 
 <!-- 7. To create bigrams the service at the following website was used: https://www.dcode.fr/bigrams. The following settings were also used:
    *  ALL CHARACTERS (INCLUDING PUNCTUATION AND SYMBOLS)
