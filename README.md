@@ -104,7 +104,15 @@ The distance that the typists' fingers will need to travel is greater for the ex
 
 As the previous heat map for the existing Mephaa keyboard shows, the frequently used keys are on the periphery of the typing area, significantly overloading the weaker fingers. In actual typing of Mephaa, Hugh has observed this to contribute to hunt-and-peck style typing.
 
+However, the severity of how much more work to type it is is not revealed until we compare the text input task on the Mephaa keyboard with other keyboards. There are two ways to compare:
+  1. Compare within the Mephaa language to other keyboard layouts supporting mephaa
+  2. Compare to other language based options that Mephaa speakers might use to communicate the same message. The following graphs illustrate both points.
+
 ![Mephaa distance traveled](Images/tcf-finger-load.png)
+
+![Mephaa distance traveled charts](Charts/tcf-eng-spa-total_traveled_distance.svg?sanitize=true)
+
+<!-- tcf-eng-spa-finger-usage-chart.svg -->
 
 In terms of work load percentages we can see where on the hand the two keyboards are "balancing" the workload.
 
