@@ -124,15 +124,7 @@ Finally in terms of row usage we can see where the high frequency targets are.
 
 ---
 
- ![Keyboard ISO 9995 Key numbers](Images/Keyboard-Key-IDs.png)
-
-_Keyboard ISO 9995 Key numbers on an ANSI QWERTY keyboard_
-
----
-
- ![Handedness on keyboards](Images/Keyboard-Handedness.png)
-
-_Keyboard Handedness shown with ISO 9995 Key numbers on an ANSI QWERTY keyboard_
+ ![Handedness on keyboards](Images/ISO9995_fingers_ANSI.png)
 
 ---
 
